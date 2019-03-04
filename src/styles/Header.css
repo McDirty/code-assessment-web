@@ -1,0 +1,23 @@
+:local(.headLabel) {
+    font-family: 'Chivo-Bold';
+    font-size: 51px;
+    font-weight: 700;
+    letter-spacing: -1.07px;
+    line-height: 44px;
+}
+
+:local(.header) {
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+:local(.cart) {
+    display: flex;
+    justify-content: end;
+}
+
+:local(.cartLabel) {
+    padding-left: 10px;
+}
